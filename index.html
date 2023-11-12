@@ -1,0 +1,1728 @@
+<style>
+    @charset "UTF-8";
+@font-face 
+{font-family: "MontserratRegular";
+src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+font-family: "MontserratBold";
+src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "CarnasBlack";
+  src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts/Carnas-Black.otf) format("opentype");
+}
+
+#es-sanofi.es-sanofi {
+  font-family: "MontserratRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 992px;
+  /* min-width: 320px; */
+  margin: 0 auto;
+  padding: 0;
+  color: #000;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#es-sanofi.es-sanofi * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#es-sanofi.es-sanofi .es-kv {
+  position: relative;
+}
+
+#es-sanofi.es-sanofi .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #52338c;
+  padding-left: 27%;
+  /* animation: slideleft 0.6s forwards;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  opacity: 0; */
+}
+
+#es-sanofi.es-sanofi .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #52338c;
+  padding-left: 27%;
+}
+
+#es-sanofi.es-sanofi .es-kv__content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#es-sanofi.es-sanofi .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-kv__img--desktop {
+  display: none;
+}
+
+#es-sanofi.es-sanofi .es-kv__img--packshot {
+  max-width: 80%;
+  margin-right: 0;
+  margin-top: 60px;
+}
+
+#es-sanofi.es-sanofi .es-benefits__content {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding: 24px 8px;
+  justify-content: center;
+  gap: 16px;
+}
+
+#es-sanofi.es-sanofi .es-benefits__pic {
+  background-color: #52338c;
+  border-radius: 15px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#es-sanofi.es-sanofi .es-benefits__single {
+  width: 46%;
+}
+
+#es-sanofi.es-sanofi .es-benefits__txt {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 13px;
+  padding-top: 8px;
+}
+
+#es-sanofi.es-sanofi .es-benefits__pic--1 {
+  background: rgb(82,51,140);
+  background: linear-gradient(170deg, rgba(82,51,140,1) 0%, rgba(82,51,140,1) 70%, rgba(94,66,148,1) 70%, rgba(94,66,148,1) 100%);  
+}
+
+#es-sanofi.es-sanofi .es-benefits__pic--2 {
+  background: rgb(82,51,140);
+  background: linear-gradient(170deg, rgba(82,51,140,1) 0%, rgba(82,51,140,1) 55%, rgba(94,66,148,1) 55%, rgba(94,66,148,1) 100%);  
+}
+
+#es-sanofi.es-sanofi .es-benefits__pic--3 {
+  background: rgb(82,51,140);
+  background: linear-gradient(170deg, rgba(82,51,140,1) 0%, rgba(82,51,140,1) 40%, rgba(94,66,148,1) 40%, rgba(94,66,148,1) 100%);  
+}
+
+#es-sanofi.es-sanofi .es-benefits__pic--4 {
+  background: rgb(82,51,140);
+  background: linear-gradient(170deg, rgba(82,51,140,1) 0%, rgba(82,51,140,1) 25%, rgba(94,66,148,1) 25%, rgba(94,66,148,1) 100%);  
+}
+
+#es-sanofi.es-sanofi .es-benefits__img {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#es-sanofi.es-sanofi .es-package {
+  background-color: #52338c;
+}
+
+#es-sanofi.es-sanofi .es-package__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 60%;
+  margin-inline: auto;
+}
+
+#es-sanofi.es-sanofi .es-package__footer {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fdc200;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: -30px;
+  padding-bottom: 8px;
+  position: relative;
+  z-index: 5;
+}
+
+#es-sanofi.es-sanofi .es-package__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-package__img--desktop {
+  display: none;
+}
+
+#es-sanofi.es-sanofi .es-package__img--old {
+  max-width: 60%;
+}
+
+/* #es-sanofi.es-sanofi .es-package__img--new {
+  margin-right: 0;
+  -webkit-animation: es-pulse 3s infinite;
+          animation: es-pulse 3s infinite;
+} */
+
+#es-sanofi.es-sanofi .es-treatment__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+}
+
+#es-sanofi.es-sanofi .es-treatment__txt {
+  margin: 0;
+  padding: 10px;
+  line-height: inherit;
+  color: #52338c;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 48px;
+  position: relative;
+}
+
+#es-sanofi.es-sanofi .es-treatment__txt--1 {
+  background-color: #d32833;
+  color: #fff;
+}
+
+#es-sanofi.es-sanofi .es-treatment__txt--2::before {
+  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/dot.png);
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  width: 26px;
+  height: 26px;
+  -webkit-animation: es-pulse-3 2s infinite;
+        animation: es-pulse-3 2s infinite;
+}
+
+#es-sanofi.es-sanofi .es-treatment__txt--span {
+  font-family: "MontserratBold", sans-serif;
+  font-style: normal;
+}
+
+#es-sanofi.es-sanofi .es-treatment__content {
+  background: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/bg-1-mobile.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
+}
+
+#es-sanofi.es-sanofi .es-treatment__subtitle {
+  font-family: "MontserratRegular", sans-serif;
+  margin: 0;
+  padding: 20px 10px;
+  line-height: inherit;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 48px;
+}
+
+#es-sanofi.es-sanofi .es-treatment__subtitle::before {
+  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/dot.png);
+  position: absolute;
+  top: 19px;
+  left: 15px;
+  width: 26px;
+  height: 26px;
+  -webkit-animation: es-pulse-4 2s infinite;
+        animation: es-pulse-4 2s infinite;
+}
+
+#es-sanofi.es-sanofi .es-treatment__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-treatment__img--desktop {
+  display: none;
+}
+
+#es-sanofi.es-sanofi .es-treatment__img--pill {
+  margin-left: 0;
+  padding-bottom: 24px;
+  -webkit-transition: ease-in-out 0.5s;
+        -o-transition: ease-in-out 0.5;
+          transition: ease-in-out 0.5s;
+  -webkit-transform: translateX(-500px);
+      -ms-transform: translateX(-500px);
+          transform: translateX(-500px);
+  transition-delay: 500ms;
+}
+
+#es-sanofi.es-sanofi .es-treatment__img--pillAppear {
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+#es-sanofi.es-sanofi .es-reasons {
+  background-color: #52338c;
+}
+
+#es-sanofi.es-sanofi .es-reasons__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+  max-width: 330px;
+}
+
+#es-sanofi.es-sanofi .es-reasons__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 77px;
+}
+
+#es-sanofi.es-sanofi .es-reasons__content {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding: 8px;
+  justify-content: center;
+  gap: 16px;
+}
+
+#es-sanofi.es-sanofi .es-reasons__pic {
+  background-color: #6a55a5;
+  border-radius: 15px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#es-sanofi.es-sanofi .es-reasons__single {
+  width: 46%;
+}
+
+#es-sanofi.es-sanofi .es-reasons__txt {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 13px;
+  padding-top: 8px;
+}
+
+#es-sanofi.es-sanofi .es-effect {
+  background-color: #52338c;
+}
+
+#es-sanofi.es-sanofi .es-effect__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #fdc200;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+  max-width: 330px;
+}
+
+#es-sanofi.es-sanofi .es-effect__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5;
+    transition: ease-in-out 0.5s;
+  -webkit-transform: translateX(-850px);
+      -ms-transform: translateX(-850px);
+          transform: translateX(-850px);
+  transition-delay: 500ms;
+}
+
+#es-sanofi.es-sanofi .es-effect__imgAppear {
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+#es-sanofi.es-sanofi .es-effect__single {
+  width: 100%;
+  position: relative;
+}
+
+#es-sanofi.es-sanofi .es-effect__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #000;
+  font-family: "CarnasBlack", sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: 41%;
+  right: 27%;
+  letter-spacing: 1px;
+  opacity: 0;
+  transition: all 1s ease-in;
+  transition-delay: 1500ms;
+}
+
+#es-sanofi.es-sanofi .es-effect__nameAppear {
+  opacity: 100;
+}
+
+#es-sanofi.es-sanofi .es-dose__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+}
+
+#es-sanofi.es-sanofi .es-dose__container {
+  background-color: #553C8D;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+#es-sanofi.es-sanofi .es-dose__single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 16px;
+}
+
+#es-sanofi.es-sanofi .es-dose__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fdc200;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 18px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+#es-sanofi.es-sanofi .es-dose__txt {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  padding-bottom: 16px;
+}
+
+#es-sanofi.es-sanofi .es-dose__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-ingr__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+}
+
+#es-sanofi.es-sanofi .es-ingr__container {
+  background-color: #553C8D;
+  border-radius: 15px;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+#es-sanofi.es-sanofi .es-ingr__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+#es-sanofi.es-sanofi .es-ingr__single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 16px;
+}
+
+#es-sanofi.es-sanofi .es-ingr__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fdc200;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 18px;
+  padding-top: 23px;
+  text-align: center;
+  padding-bottom: 23px;
+}
+
+#es-sanofi.es-sanofi .es-ingr__txt {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+#es-sanofi.es-sanofi .es-ingr__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+#es-sanofi.es-sanofi .es-ingr__img--icon {
+  margin: 0;
+  padding: 0;
+}
+
+#es-sanofi.es-sanofi .es-video {
+  background-color: #52338c;
+  width: 100%;
+}
+
+#es-sanofi.es-sanofi .es-video__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 300px;
+  margin-inline: auto;
+  margin-top: -40%;
+}
+
+#es-sanofi.es-sanofi .es-video__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-cross__title {
+  margin: 0;
+  padding: 24px 0;
+  line-height: inherit;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-inline: auto;
+  max-width: 300px;
+}
+
+#es-sanofi.es-sanofi .es-cross__txt {
+  margin: 20px 0;
+  padding: 0;
+  line-height: inherit;
+  color: #000;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  text-align: center;
+  margin-inline: auto;
+  max-width: 355px;
+}
+
+#es-sanofi.es-sanofi .es-cross__txt--1 {
+  margin-top: 0;
+}
+
+#es-sanofi.es-sanofi .es-cross__signature {
+  margin: 0 0 22px 0;
+  padding: 0;
+  line-height: inherit;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#es-sanofi.es-sanofi .es-cross__wrp {
+  display: flex;
+}
+
+#es-sanofi.es-sanofi .es-cross__header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-flow: column;
+  margin-bottom: 116px;
+  margin-right: 16px;
+}
+
+#es-sanofi.es-sanofi .es-cross__wrapper {
+  overflow-x: auto;
+  display: flex;
+  flex-flow: row;
+  gap: 16px;
+}
+
+#es-sanofi.es-sanofi .es-cross__container {
+  border: 2px solid #bc547a;
+  margin-bottom: 32px;
+  border-radius: 15px;
+  min-width: 355px;
+  padding: 8px 16px;
+}
+
+#es-sanofi.es-sanofi .es-cross__container--2 {
+  border: 2px solid #563c8d;
+}
+
+#es-sanofi.es-sanofi .es-cross__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row;
+  gap: 16px;
+}
+
+#es-sanofi.es-sanofi .es-cross__single {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: column;
+  width: 50%;
+}
+
+#es-sanofi.es-sanofi .es-cross__single--1 {
+  height: 150px;
+}
+
+#es-sanofi.es-sanofi .es-cross__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+#es-sanofi.es-sanofi .es-cross__btn {
+  line-height: inherit;
+  font-family: "MontserratBold", sans-serif;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  min-height: 40px;
+  margin: 5px auto;
+  text-align: center;
+  text-decoration: none;
+  color: #52338c;
+  background: rgb(253,194,0);
+  background: linear-gradient(180deg, rgba(253,194,0,1) 0%, rgba(255,235,0,1) 50%, rgba(253,194,0,1) 100%);
+  border-radius: 25px;
+  line-height: 1;
+  box-shadow: 8px 8px 28px -10px rgb(17, 17, 17);
+  transition: 0.3s ease-in-out;
+  margin-bottom: 32px;
+  /* -webkit-animation: es-pulse-2 2s infinite;
+          animation: es-pulse-2 2s infinite; */
+}
+
+#es-sanofi.es-sanofi .es-cross__btn:hover {
+  transform: scale(0.98);
+  box-shadow: inset 0 0 0 0 rgb(17, 17, 17);
+  background: rgb(255,240,100);
+  background: linear-gradient(180deg, rgba(255,235,0,1) 0%, rgba(253,194,0,1) 50%, rgba(255,235,0,1) 100%);
+  /* -webkit-animation: none;
+  animation: none; */
+}
+
+#es-sanofi.es-sanofi .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+}
+
+#es-sanofi.es-sanofi .es-cross__img:hover {
+  transform: scale(1.1);
+}
+
+#es-sanofi.es-sanofi .es-cross__label {
+  margin: 0;
+  padding: 6px 12px;
+  line-height: inherit;
+  color: #fff;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 13px;
+  background-color: #d32833;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+  -webkit-animation: es-pulse-2 2s infinite;
+          animation: es-pulse-2 2s infinite;
+}
+
+#es-sanofi.es-sanofi .es-video__iframe {
+  aspect-ratio: 16/9;
+}
+
+#es-sanofi.es-sanofi .es-footer__claims {
+  margin: 0;
+  padding: 8px;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  padding-bottom: 16px;
+}
+
+#es-sanofi.es-sanofi .es-footer__txt {
+  margin: 0;
+  padding: 8px;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 16px;
+}
+
+#es-sanofi.es-sanofi .es-footer__warning {
+  margin: 0;
+  padding: 8px;
+  line-height: 1.4;
+  color: #52338c;
+  font-family: "MontserratBold", sans-serif;
+  font-size: 22px;
+}
+
+#es-sanofi.es-sanofi .es-footer__number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+}
+
+#es-sanofi.es-sanofi .es-footer__logo {
+  max-width: 165px;
+}
+
+#es-sanofi.es-sanofi .es-footer__numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#es-sanofi.es-sanofi .es-sanofi__sup {
+  line-height: 0;
+  font-size: 0.5em;
+}
+
+#es-sanofi.es-sanofi .es-sanofi__span {
+  color: #fdc200;
+  font-style: normal;
+}
+
+#es-sanofi.es-sanofi .es-info__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-sanofi.es-sanofi .es-wrapper {
+  padding: 0 16px;
+}
+
+@media (min-width: 404px) {
+  #es-sanofi.es-sanofi .es-cross__title {
+    max-width: 404px;
+  }
+  #es-sanofi.es-sanofi .es-effect__name {
+    font-size: 20px;
+    right: 30%;
+  }
+}
+
+@media (min-width: 505px) {
+  #es-sanofi.es-sanofi .es-kv__subtitle {
+    font-size: 15px;
+  }
+  #es-sanofi.es-sanofi .es-kv__title {
+    font-size: 28px;
+  }
+  #es-sanofi.es-sanofi .es-kv__img--packshot {
+    margin-top: 90px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__pic {
+    height: 170px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__single {
+    width: 170px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__pic {
+    height: 170px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__single {
+    width: 170px;
+  }
+}
+
+@media (min-width: 666px) {
+  #es-sanofi.es-sanofi .es-kv__title {
+    padding-left: 35%;
+  }
+  #es-sanofi.es-sanofi .es-kv__subtitle {
+    padding-left: 35%;
+  }
+  #es-sanofi.es-sanofi .es-kv__img--desktop {
+    display: block;
+  }
+  #es-sanofi.es-sanofi .es-kv__img--mobile {
+    display: none;
+  }
+  #es-sanofi.es-sanofi .es-kv__img--packshot {
+    margin-top: -80px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__content {
+    gap: 24px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__pic {
+    height: 220px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__single {
+    width: 220px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__txt {
+    font-size: 18px;
+  }
+  #es-sanofi.es-sanofi .es-benefits__img {
+    max-width: 100%;
+  }
+  /* #es-sanofi.es-sanofi .es-benefits__pic:hover .es-benefits__img {
+    -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+  } */
+  #es-sanofi.es-sanofi .es-reasons__title {
+    font-size: 32px;
+    max-width: 660px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__img {
+    width: 120px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+    /* #es-sanofi.es-sanofi .es-reasons__pic:hover .es-reasons__img {
+    -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+  } */
+  #es-sanofi.es-sanofi .es-reasons__content {
+    gap: 48px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__pic {
+    height: 220px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__single {
+    width: 220px;
+  }
+  #es-sanofi.es-sanofi .es-reasons__txt {
+    font-size: 18px;
+  }
+  #es-sanofi.es-sanofi .es-effect__title {
+    font-size: 32px;
+    max-width: 660px;
+  }
+  #es-sanofi.es-sanofi .es-effect__name {
+    font-size: 32px;
+    right: 36%;
+    top: 37%;
+  }
+  #es-sanofi.es-sanofi .es-package__title {
+    font-size: 32px;
+    max-width: 80%;
+  }
+  #es-sanofi.es-sanofi .es-package__footer {
+    font-size: 24px;
+  }
+  #es-sanofi.es-sanofi .es-treatment__title {
+    font-size: 32px;
+    padding: 32px 0;
+  }
+  #es-sanofi.es-sanofi .es-dose__title {
+    font-size: 32px;
+  }
+  #es-sanofi.es-sanofi .es-dose__txt {
+    font-size: 18px;
+  }
+  #es-sanofi.es-sanofi .es-dose__name {
+    font-size: 22px;
+  }
+  #es-sanofi.es-sanofi .es-ingr__title {
+    font-size: 32px;
+  }
+  #es-sanofi.es-sanofi .es-ingr__txt {
+    font-size: 18px;
+    padding-bottom: 24px;
+  }
+  #es-sanofi.es-sanofi .es-ingr__name {
+    font-size: 22px;
+    padding-bottom: 22px;
+  }
+  #es-sanofi.es-sanofi .es-ingr__img--pill {
+    margin: 18px auto;
+  }
+  /* #es-sanofi.es-sanofi .es-ingr__img--icon {
+    -webkit-animation: es-pulse-2 2s infinite;
+            animation: es-pulse-2 2s infinite;
+  } */
+  #es-sanofi.es-sanofi .es-video__title {
+    font-size: 32px;
+    max-width: unset;
+  }
+  #es-sanofi.es-sanofi .es-cross__title {
+    max-width: unset;
+    font-size: 32px;
+  }
+  #es-sanofi.es-sanofi .es-cross__btn {
+    font-size: 20px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 1001px) {
+  #es-sanofi.es-sanofi .es-kv__title {
+    font-size: 42px;
+    padding-left: 25%;
+  }
+  #es-sanofi.es-sanofi .es-kv__subtitle {
+    font-size: 22px;
+    padding-left: 25%;
+  }
+#es-sanofi.es-sanofi .es-kv__img--packshot {
+  max-width: 100%;
+}
+#es-sanofi.es-sanofi .es-package__footer {
+  margin-top: -80px;
+  padding-bottom: 8px;
+  margin-left: 9%;
+  text-align: left;
+  padding-bottom: 51px;
+}
+#es-sanofi.es-sanofi .es-package__img--old {
+  max-width: 100%;
+  margin-right: 5%;
+  position: relative;
+  z-index: 5;
+}
+#es-sanofi.es-sanofi .es-package__img--new {
+  margin-right: 0;
+  margin-top: -100px;
+}
+#es-sanofi.es-sanofi .es-package__img--mobile {
+  display: none;
+}
+#es-sanofi.es-sanofi .es-package__img--desktop {
+  display: block;
+}
+#es-sanofi.es-sanofi .es-treatment {
+  position: relative;
+  min-height: 666px;
+}
+#es-sanofi.es-sanofi .es-treatment__content {
+  background: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/bg-1.png);
+  background-repeat: no-repeat;
+}
+#es-sanofi.es-sanofi .es-treatment__txt {
+  max-width: unset;
+  padding: 20px 410px 20px 60px;
+  font-size: 20px;
+  text-align: left;
+}
+#es-sanofi.es-sanofi .es-treatment__txt--1 {
+  padding-right: 325px;
+}
+#es-sanofi.es-sanofi .es-treatment__txt--2::before {
+  top: 18px;
+  left: 18px;
+}
+#es-sanofi.es-sanofi .es-treatment__subtitle {
+  max-width: 490px;
+  margin-left: 12px;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+}
+#es-sanofi.es-sanofi .es-treatment__subtitle::before {
+  top: 17px;
+}
+#es-sanofi.es-sanofi .es-treatment__img--desktop {
+  display: block;
+  position: absolute;
+  top: 125px;
+  right: 0px;
+}
+#es-sanofi.es-sanofi .es-treatment__img--mobile {
+  display: none;
+}
+#es-sanofi.es-sanofi .es-treatment__img--pill {
+  display: none;
+}
+#es-sanofi.es-sanofi .es-treatment__img--packshot {
+  top: 390px;
+  right: 100px;
+  z-index: 10;
+}
+#es-sanofi.es-sanofi .es-video__title {
+  margin-top: -35%;
+}
+#es-sanofi.es-sanofi .es-wrapper2 {
+  background-image: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/bg.png);
+}
+#es-sanofi.es-sanofi .es-reasons {
+  background-color: transparent;
+}
+#es-sanofi.es-sanofi .es-effect {
+  background-color: transparent;
+}
+#es-sanofi.es-sanofi .es-wrapper {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+#es-sanofi.es-sanofi .es-dose {
+  width: 47%;
+}
+#es-sanofi.es-sanofi .es-ingr {
+  width: 47%;
+}
+#es-sanofi.es-sanofi .es-cross__signature {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-cross__txt {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-footer__claims {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-footer__txt {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-footer__warning {
+  font-size: 28px;
+}
+}
+
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideright {
+  0% {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideright {
+  0% {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes es-pulse {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes es-pulse {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes es-pulse-2 {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes es-pulse-2 {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes es-pulse-3 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(89, 25, 129);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+@keyframes es-pulse-3 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(89, 25, 129);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+
+@-webkit-keyframes es-pulse-4 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+@keyframes es-pulse-4 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+</style>
+<div id="es-sanofi" class="es-sanofi">
+
+    <div class="es-kv">
+        <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/kv-mb.png" alt="" class="es-kv__img es-kv__img--mobile"></div>
+        <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/kv.png" alt="" class="es-kv__img es-kv__img--desktop"></div>
+        <div class="es-kv__content">
+            <div class="es-kv__subtitle">
+                WŁAŚCIWY SPOSÓB NA BÓLE BRZUCHA<sup class="es-sanofi__sup">7</sup>
+            </div>
+            <div class="es-kv__title">
+                <em class="es-sanofi__span">TERAZ W WIĘKSZYM OPAKOWANIU</em>
+            </div>
+            <div class="es-kv__packshot">
+                <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/packshot.png" loading="lazy" alt="" class="es-kv__img es-kv__img--packshot">
+            </div>
+        </div>
+    </div>
+
+    <div class="es-benefits">
+        <div class="es-benefits__content">
+            <div class="es-benefits__single">
+                <div class="es-benefits__pic es-benefits__pic--1">
+                    <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-1.png" alt="" class="es-benefits__img">
+                </div>
+                <div class="es-benefits__txt">
+                    No-Spa Max <br> szybko trafia <br> w&nbsp;skurcz<sup class="es-sanofi__sup">1</sup>
+                </div>
+            </div>
+            <div class="es-benefits__single">
+                <div class="es-benefits__pic es-benefits__pic--2">
+                    <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-2.png" alt="" class="es-benefits__img">
+                </div>
+                <div class="es-benefits__txt">
+                    No-Spa Max <br> likwiduje skurcz, <br> który jest <br> źródłem bólu<sup class="es-sanofi__sup">2</sup>
+                </div>
+            </div>                
+            <div class="es-benefits__single">
+                <div class="es-benefits__pic es-benefits__pic--3">
+                    <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-3.png" alt="" class="es-benefits__img">
+                </div>
+                <div class="es-benefits__txt">
+                    No-Spa Max usuwa <br> ból brzucha<sup class="es-sanofi__sup">3</sup>
+                </div>
+            </div>                
+            <div class="es-benefits__single">
+                <div class="es-benefits__pic es-benefits__pic--4">
+                    <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-4.png" alt="" class="es-benefits__img">
+                </div>
+                <div class="es-benefits__txt">
+                    Tabletka No-Spa <br> Max jest mała i&nbsp;łatwa <br> do połknięcia
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="es-package">
+        <div class="es-package__title">
+            TERAZ <em class="es-sanofi__span">NO-SPA</em> w&nbsp;NOWYCH OPAKOWANIACH
+        </div>
+        <div class="es-package__pic">
+            <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/old.png" alt="" class="es-package__img es-package__img--old">
+        </div>
+        <div class="es-package__pic">
+            <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/new.png" alt="" class="es-package__img es-package__img--new es-package__img--mobile"></div>
+            <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/new-desktop.png" alt="" class="es-package__img es-package__img--new es-package__img--desktop"></div>
+        </div>
+        <div class="es-package__footer">
+            NOWE OPAKOWANIA
+        </div>
+    </div>
+
+    <div class="es-treatment">
+        <div class="es-treatment__title">
+            JAK WŁAŚCIWIE <br> <span class="es-sanofi__span">LECZYĆ BÓL BRZUCHA?</span>
+        </div>
+        <div class="es-treatment__txt es-treatment__txt--1">
+            <span class="es-treatment__txt--span">Ponad 50% Polaków leczy skurczowe bóle brzucha lekami przeciwbólowymi<sup class="es-sanofi__sup">5</sup>, 
+            które nie są lekami pierwszego wyboru w&nbsp;przypadku skurczowego bólu brzucha<sup class="es-sanofi__sup">6</sup></span>, ponieważ działają na ośrodkowy układ nerwowy, a&nbsp;nie&nbsp;rozkurczowo.
+        </div>
+        <div class="es-treatment__txt es-treatment__txt--2">
+            Skurczowe bóle brzucha związane m.in. ze&nbsp;stresem, niewłaściwym jedzeniem lub chorobami dróg moczowych powinny być <span class="es-sanofi__span es-treatment__txt--span">leczone u&nbsp;źródła - poprzez likwidację skurczu.</span>
+        </div>
+        <div class="es-treatment__content">
+            <div class="es-treatment__subtitle">
+                Zgodnie z wytycznymi, wsparciem dla organizmu w&nbsp;takim przypadku powinny być <span class="es-sanofi__span es-treatment__txt--span">„celowane” leki rozkurczowe</span>, które działając 
+                w&nbsp;miejscu bólu - likwidują skurcz i&nbsp;usuwają źródło bólu.<sup class="es-sanofi__sup">10</sup>
+            </div>
+            <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/pill.png" alt="" class="es-treatment__img es-treatment__img--pill es-treatment__img--pillAppear">
+        </div>
+        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/woman-mb.png" alt="" class="es-treatment__img es-treatment__img--mobile">
+        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/woman.png" alt="" class="es-treatment__img es-treatment__img--desktop">
+        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/packshot-2.png" alt="" class="es-treatment__img es-treatment__img--packshot es-treatment__img--desktop">
+    </div>
+
+    <div class="es-wrapper2">
+        <div class="es-reasons">
+            <div class="es-reasons__title"><em class="es-sanofi__span">NO-SPA MAX</em> NA RÓŻNE PRZYCZYNY BÓLU BRZUCHA</div>
+            <div class="es-reasons__content">
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-5.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Stres
+                    </div>
+                </div>
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-6.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Niewłaściwa dieta
+                    </div>
+                </div>
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-7.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Zespół jelita drażliwego IBS
+                    </div>
+                </div>
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-8.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Bolesne miesiączkowanie
+                    </div>
+                </div>
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-9.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Choroby dróg żółciowych
+                    </div>
+                </div>
+                <div class="es-reasons__single">
+                    <div class="es-reasons__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-10.png" alt="" class="es-reasons__img">
+                    </div>
+                    <div class="es-reasons__txt">
+                        Choroby układu moczowego
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="es-effect">
+            <div class="es-effect__title">No-Spa to lek rozkurczowy, który działa podwójnie:</div>
+            <div class="es-effect__content">
+                <div class="es-effect__single">
+                    <div class="es-effect__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/pill-2.png" alt="" class="es-effect__img es-effect__imgAppear">
+                    </div>
+                    <div class="es-effect__name es-effect__nameAppear">
+                        LIKWIDUJE SKURCZ<sup class="es-sanofi__sup">7</sup>
+                    </div>
+                </div>
+                <div class="es-effect__single">
+                    <div class="es-effect__pic">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/pill-2.png" alt="" class="es-effect__img es-effect__imgAppear">
+                    </div>
+                    <div class="es-effect__name es-effect__nameAppear">
+                        USUWA BÓL BRZUCHA<sup class="es-sanofi__sup">7</sup>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="es-wrapper">
+        <div class="es-dose">
+            <div class="es-dose__title">Dawkowanie</div>
+            <div class="es-dose__container">
+                <div class="es-dose__content">
+                    <div class="es-dose__single">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-11.png" alt="" class="es-dose__img">
+                        <div class="es-dose__name">
+                            Dorośli
+                        </div>
+                        <div class="es-dose__txt">
+                            1 tabletka 2-3x na dobę
+                        </div>
+                    </div>
+                    <div class="es-dose__single">
+                        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-12.png" alt="" class="es-dose__img">
+                        <div class="es-dose__name">
+                            Dzieci powyżej 12 r.ż.<sup class="es-sanofi__sup">8</sup>
+                        </div>
+                        <div class="es-dose__txt">
+                            1 tabletka 1-2x na dobę
+                        </div>
+                        <div class="es-dose__txt">
+                            Nieodpowiedni dla dzieci poniżej 12 r.ż.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="es-ingr">
+            <div class="es-ingr__title">SKŁAD</div>
+            <div class="es-ingr__container">
+                <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/pill-1.png" alt="" class="es-ingr__img es-ingr__img--pill">
+                <div class="es-ingr__name">
+                    No-Spa Max, 80 mg, <br> tabletki powlekane
+                </div>
+                <div class="es-ingr__txt">
+                    Jedna tabletka zawiera 80 mg <br> chlorowodorku drotaweryny
+                </div>
+                <div class="es-ingr__txt">
+                    Wybierz sprawdzony lek <br> na różne bóle brzucha:
+                </div>
+                <div class="es-ingr__content">
+                    <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-13.png" alt="" class="es-ingr__img es-ingr__img--icon"></div>
+                    <div><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/icon-14.png" alt="" class="es-ingr__img es-ingr__img--icon"></div>
+                </div>
+                <div class="es-ingr__name">
+                    DLA NIEJ I&nbsp;DLA NIEGO
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="es-video">
+        <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/bg-3.png" alt="" class="es-info__img">
+        <div class="es-video__title">
+            No-Spa Max <br> <div class="es-sanofi__span">uwolnij brzuch, uwolnij siebie</div>
+        </div>
+    </div>
+
+    <div class="es-cross">
+        <div class="es-cross__title">
+            RODZINA PRODUKTÓW <span class="es-sanofi__span">No-Spa</span>
+        </div>
+        <div class="es-cross__wrp">
+            <div class="es-cross__header">
+                <div class="es-cross__signature">Typ produktu</div>
+                <div class="es-cross__signature">Dawkowanie</div>
+                <div class="es-cross__signature">Składnik</div>
+                <div class="es-cross__signature">Opakowanie</div>
+            </div>
+            <div class="es-cross__wrapper">
+                <div class="es-cross__container">
+                    <div class="es-cross__content">
+                        <div class="es-cross__single es-cross__single--1">
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-40-mg-20-tabletek-lek-rozkurczowy-bolesne-miesiaczkowanie,45939.html?poz=2"><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/cross-1.png" alt="" class="es-cross__img"></a>
+                            <div class="es-cross__name">No-Spa</div>
+                        </div>
+                        <div class="es-cross__single es-cross__single--1">
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-40-mg-40-tabletek-bole-brzucha-skurcze,14821.html?poz=4"><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/cross-2.png" alt="" class="es-cross__img"></a>
+                            <div class="es-cross__name">No-Spa</div>
+                        </div>
+                    </div>
+                    <div class="es-cross__txt"><b>Tabletki</b> <br> Lek bez recepty</div>
+                    <div class="es-cross__txt">dzieci powyżej 6. roku życia, dorośli</div>
+                    <div class="es-cross__txt">40 mg chlorowodorku drotaweryny</div>
+                    <div class="es-cross__content">
+                        <div class="es-cross__single">
+                            <div class="es-cross__txt es-cross__txt--1">20 tabletek</div>
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-40-mg-20-tabletek-lek-rozkurczowy-bolesne-miesiaczkowanie,45939.html?poz=2" class="es-cross__btn">Sprawdź</a>
+                        </div>
+                            <div class="es-cross__single">
+                            <div class="es-cross__txt es-cross__txt--1">40 tabletek</div>
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-40-mg-40-tabletek-bole-brzucha-skurcze,14821.html?poz=4" class="es-cross__btn">Sprawdź</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="es-cross__container es-cross__container--2">
+                    <div class="es-cross__content">
+                        <div class="es-cross__single es-cross__single--1">
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-max-80-mg-20-tabletek-lek-na-skurczowe-bole-brzucha,17483.html?poz=3"><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/cross-3.png" alt="" class="es-cross__img"></a>
+                            <div class="es-cross__name">No-Spa Max</div>
+                        </div>
+                        <div class="es-cross__single es-cross__single--1">
+                            <div class="es-cross__label">WIĘKSZE OPAKOWANIE</div>
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-max-80-mg-48tabl,136491.html?poz=1"><img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/cross-4.png" alt="" class="es-cross__img"></a>
+                            <div class="es-cross__name">No-Spa Max</div>
+                        </div>
+                    </div>
+                    <div class="es-cross__txt"><b>Tabletki powlekane</b> <br> Lek bez recepty</div>
+                    <div class="es-cross__txt">dzieci powyżej 12. roku życia, dorośli</div>
+                    <div class="es-cross__txt">80 mg chlorowodorku drotaweryny</div>
+                    <div class="es-cross__content">
+                        <div class="es-cross__single">
+                            <div class="es-cross__txt es-cross__txt--1">20 tabletek</div>
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-max-80-mg-20-tabletek-lek-na-skurczowe-bole-brzucha,17483.html?poz=3" class="es-cross__btn">Sprawdź</a>
+                        </div>
+                            <div class="es-cross__single">
+                            <div class="es-cross__txt es-cross__txt--1">48 tabletek</div>
+                            <a href="https://www.aptekaolmed.pl/produkt/no-spa-max-80-mg-48tabl,136491.html?poz=1" class="es-cross__btn">Sprawdź</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="es-footer">
+        <div class="es-footer__claims">
+            1. ChPL No-Spa® Max, 80 mg, 08.2023. Drotaweryna jest szybko i&nbsp;całkowicie wchłaniana zarówno po podaniu doustnym, jak i&nbsp;jelitowym. Eder P. at el. Samodzielne leczenie drotaweryną u&nbsp;pacjentów z&nbsp;powszechnymi dolegliwościami ze strony jamy brzusznej oraz skuteczność leczenia z&nbsp;perspektywy pacjentów i&nbsp;lekarzy podstawowej opieki zdrowotnej – obserwacyjne, retrospektywne badanie przekrojowe z&nbsp;wykorzystaniem danych z&nbsp;praktyki rzeczywistej. Terapia 2022 nr&nbsp;11(418).<br>
+            2. ChPL No-Spa® Max, 80 mg, tabletki, 08.2023.<br>
+            3. Dotyczy skurczowego bólu brzucha (w tym IBS). Efektem rozkurczowym jest brak bólu. CHPL No-Spa®, 80 mg, tabletki, 08.2023. Cichy W. Bóle brzucha – postępowanie pasywne czy aktywne? Świat Medycyny i&nbsp;Farmacji, Lekarz Rodzinny, kwiecień 2018: 6-18.<br>
+            4. Mastalerz-Migas A., Gwiazda E., Steciwko A. Bóle brzucha u&nbsp;dorosłych – diagnostyka różnicowa i&nbsp;postępowanie terapeutyczne. Terapia 2009, 9 z. 1 (299): 63-68.<br>
+            5. Dane z&nbsp;badania „Penetracje dolegliwości” zrealizowanego przez IQS dla Sanoﬁ w&nbsp;dniach 5-13.12.2022 r. metodą CAWI na reprezentatywnej próbie (N = 1561) Polaków powyżej 18. rokużycia.<br>
+            6. Rydzewska G. Postępowanie w&nbsp;czynnościowych bólach brzucha w&nbsp;świetle aktualnych rekomendacji. Lekarz POZ 1/2023.<br>
+            7. Dotyczy skurczowego bólu brzucha (w tym IBS). Efektem rozkurczowym jest brak bólu. CHPL No-Spa® Max, 80 mg, tabletki, 08.2023. Cichy W. Bóle brzucha – postępowanie pasywne czy aktywne? Świat Medycyny i&nbsp;Farmacji, Lekarz Rodzinny, kwiecień 2018: 6-18.<br>
+            8. w&nbsp;dawkowaniu No-Spa® Max należy podkreślić, że nie były prowadzone badania kliniczne z&nbsp;tą postacią leku z&nbsp;udziałem dzieci. w&nbsp;przypadku konieczności zastosowania produktu leczniczego No-Spa® Max u&nbsp;dzieci należy przestrzegać zalecanej dawki dobowej adekwatnej do ich wieku. ChPL No-Spa® Max, 80 mg, tabletki, 08.2023.<br>
+            9. Dane z&nbsp;Badania "Penetracje dolegliwości" zrealizowane przez IQS dla Sanofi w&nbsp;dniach 5-13.12.2022 r., metodą CAWI na reprezentatywnej próbie (N=1561) Polaków powyżej 18 roku życia. <br>
+            10. Wytyczne dotyczące leczenia czynnościowego skurczowego bólu brzucha. Müller-Lissner S.&nbsp;et&nbsp;all., Functional Abdominal Cramping Pain, Expert Practical Guidance, J&nbsp;Clin Gastroenterol, Volume 56, Number 10, November/December 2022. <br>
+        </div>
+        <div class="es-footer__txt">
+            NO-SPA Max, tabletki powlekane, 80 mg chlorowodorku drotaweryny. Wskazania: stany skurczowe mięśni gładkich związane z: 
+            kamicą dróg żółciowych, zapaleniem pęcherzyka żółciowego, zapaleniem okołopęcherzykowym, zapaleniem przewodów żółciowych, 
+            zapaleniem brodawki Vatera; kamicą nerkową, kamicą moczowodową, zapaleniem miedniczek nerkowych, zapaleniem pęcherza moczowego, 
+            bolesnym parciem na mocz. Leczenie wspomagające w&nbsp;stanach skurczowych mięśni gładkich przewodu pokarmowego, chorobie wrzodowej żołądka 
+            i&nbsp;dwunastnicy, zapaleniu żołądka, zapaleniu jelit, zapaleniu okrężnicy, stanach skurczowych wpustu i&nbsp;odźwiernika żołądka, zespole jelita drażliwego, 
+            zaparciach na tle spastycznym i&nbsp;wzdęciach jelit, zapaleniu trzustki; w&nbsp;bolesnym miesiączkowaniu. 
+            Podmiot odpowiedzialny: Opella Healthcare Commercial Ltd., Węgry, grupa Sanofi <br /> <i>{ChPL 01/2023}</i>
+        </div>
+        <div class="es-footer__txt">
+            No-Spa, tabletki; 40 mg chlorowodorku drotaweryny. Wskazania: stany skurczowe mięśni gładkich związane z&nbsp;kamicą dróg żółciowych, 
+            zapaleniem pęcherzyka żółciowego, zapaleniem okołopęcherzykowym, zapaleniem przewodów żółciowych, zapaleniem brodawki Vatera; kamicą nerkową, 
+            kamicą moczowodową, zapaleniem miedniczek nerkowych, zapaleniem pęcherza moczowego, bolesnym parciem na mocz. Leczenie wspomagające w&nbsp;stanach 
+            skurczowych mięśni gładkich przewodu pokarmowego: chorobie wrzodowej żołądka i&nbsp;dwunastnicy, zapaleniu żołądka, zapaleniu jelit, zapaleniu okrężnicy, 
+            stanach skurczowych wpustu i&nbsp;odźwiernika żołądka, zespole jelita drażliwego, zaparciach na&nbsp;tle spastycznym i&nbsp;wzdęciach jelit, zapaleniu trzustki; w&nbsp;bolesnym miesiączkowaniu. 
+            Podmiot odpowiedzialny: Opella Healthcare Poland Sp.&nbsp;z&nbsp;o.o., grupa Sanofi <br /> <i>{ChPL 08/2023}</i>
+        </div>
+        <div class="es-footer__warning">
+            To jest lek. Dla bezpieczeństwa stosuj go zgodnie z&nbsp;ulotką dołączoną do opakowania. 
+            Nie przekraczaj maksymalnej dawki leku. w&nbsp;przypadku wątpliwości skonsultuj się z&nbsp;lekarzem lub farmaceutą.
+        </div>
+        <div class="es-footer__numbers">
+            <div class="es-footer__number">
+                MAT-PL-2301616-2.0-10.2023
+            </div>
+            <img src="https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/logo.png" alt="" class="es-footer__logo">
+        </div>
+    </div>
+
+</div>
+<script>
+    function reveal() {
+        const reveals = document.querySelectorAll('.es-treatment__img--pill');
+        console.log(reveals);
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add('es-treatment__img--pillAppear');
+            } else {
+            reveals[i].classList.remove('es-treatment__img--pillAppear');
+            }
+        }
+        }
+    window.addEventListener('scroll', reveal);
+    function reveal_2() {
+        const reveals = document.querySelectorAll('.es-effect__img');
+        console.log(reveals);
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 250;
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add('es-effect__imgAppear');
+            } else {
+            reveals[i].classList.remove('es-effect__imgAppear');
+            }
+        }
+        }
+    window.addEventListener('scroll', reveal_2);
+    function reveal_3() {
+        const reveals = document.querySelectorAll('.es-effect__name');
+        console.log(reveals);
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 200;
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add('es-effect__nameAppear');
+            } else {
+            reveals[i].classList.remove('es-effect__nameAppear');
+            }
+        }
+        }
+    window.addEventListener('scroll', reveal_3);
+    try {
+    document.querySelector('.es-ingredients').insertAdjacentHTML('afterend', `
+    <div class="es-video">
+    <iframe 
+      class="es-video__iframe" 
+      width="100%" height="auto" 
+      src="https://www.youtube.com/embed/nkjNDp4Qvzw" 
+      frameborder="0" 
+      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  `);
+  } catch {
+    console.log('There is no div for video insertion');
+  }
+</script>
